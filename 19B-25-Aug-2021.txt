@@ -1,0 +1,144 @@
+ GIT FEATURES 
+
+1. Git open source
+2.  Git implements DVCS techniques
+That means it contains  - Remote Repo, Local Repo
+3. Git -- Encryption of SHA (Secure Hash Algorithm)
+4. Git - windows /Linux/ Mac
+5. OS - 32 and 64 bit
+6. Released in 2003 year, by  Linus Torvalds
+7. Language  written in c →  Pearl →  Python
+8. Official site : https://git-scm.com/
+9. No system requirements to install git.
+
+GIT INSTALLATION 
+
+Below steps for Windows: 
+
+* go to the official site and download, proceed with installation.
+
+screenshots of installation available at -
+
+https://freshersnotes.com/how-to/how-to-install-git-on-windows/
+
+http://robertovormittag.net/ebooks/git-and-github/git-for-windows-installation-screenshots/
+
+Note:  While installation, under screen shot of "adjust path environment", select "use git from git bash only"
+
+Below steps for Linux: 
+
+Q. Is there any prerequisite required for git ?
+    No.
+
+Q. Command to install -
+
+    # yum install git
+
+Error: cannot get a base url for repo.
+
+Q. Command to remove git :
+
+  # yum remove git
+
+Q. Command to verify the installation -
+
+    # git  --version
+
+Expected Output: 
+
+[root@localhost ~]# git --version
+git version 1.8.3.1 
+
+                     Configuration of Git 
+
+Q. How to check the configuration of git ?
+
+    # git config --list
+
+There are 7/8 configurations which can be configured.
+out of these, 2 configuration are mandatory 
+They are : user.email and user.name
+
+Q. How to configure a user name ?
+
+    # git config --global user.name <name>
+
+    Example:
+
+    # git config --global user.name vikram
+
+Q. How to configure user email id ?
+
+    # git config --global user.email <email_id>
+
+Example: 
+
+    # git config --global user.email vikram7988@gmail.com
+
+
+Q. What if the information of user.name or user.email are incorrect ?
+
+    fix : rerun the command with correct information
+
+Q. How to change/update user.name or email ?
+
+    # git config --global user.name kumar
+
+Q. Do you think the email id that was given in configuration is getting validated ?
+
+no validation
+
+ Project Creation in Git 
+
+Q. How to create the project in git ?
+
+    or
+
+ Q. How to create a local repo on a client computer ?
+
+    # git init <project_name>
+
+    or
+
+    # git init <local_repo_name>
+
+Q. How do you verify if that folder is a git repo or not ?
+
+    method 1 # cd into folder then
+
+# ls -la  
+
+we should see .git folder
+
+    method 2 # 
+
+cd into that folder then
+
+ # git status 
+
+we will get some response
+
+Q. How many projects/repositories can we create on the client side ?
+
+    unlimited.
+
+Q. Will you create a project/repo inside of another repo on the client side?
+
+    no.
+
+Q. What are two commands which can be executed irrespective of repo or project ?
+
+    # git --version
+
+    # git config --list
+
+*** we will find .git folder which is hidden exists in a local repo/git project
+
+Q. linux ls -l and ls -la
+
+Q. Do we have to create repo in the root folder only or can we create repo at any location?
+
+    Location does not matter
+
+        
+Understand architecture..
